@@ -4,13 +4,15 @@ import React, { Component } from 'react';
 import './App.css';
 import PageContacts from './Pages/Contacts/PageContacts';
 import Header from './Components/Header/Header';
+import PageMain from "./Pages/Main/PageMain";
 
 class App extends Component {
     render() {
         return (
             <div className="App">
                 <Header/>
-                <PageContacts/>
+                {/*<PageContacts/>*/}
+                <PageMain/>
             </div>
         );
     }
