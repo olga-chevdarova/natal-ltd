@@ -1,0 +1,26 @@
+.navigation {
+  position: fixed;
+  height: 100%;
+  right: 3%;
+  display: flex;
+  align-items: center;
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90%;
+
+    a {
+      display: inline-block;
+      padding: 1em;
+      background-color: #c42e39;
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: 400;
+      text-align: center;
+      writing-mode: vertical-rl;
+    }
+  }
+
+}
